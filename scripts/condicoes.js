@@ -1,6 +1,6 @@
 //IF
-const d = new Date();
-let horas = d.getHours();
+const dia = new Date();
+let horas = dia.getHours();
 if (horas < 12 && horas >06){
     alert ("Bom dia");
 }else{
