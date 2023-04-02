@@ -1,6 +1,11 @@
-//IF
+/**
+ * ESTRUTURA IF
+ */
+//pega a hora
 const dia = new Date();
-let horas = dia.getHours();
+let horas = dia.getHours(); // pega a hora 
+
+
 if (horas < 12 && horas >06){
     alert ("Bom dia");
 }else{
